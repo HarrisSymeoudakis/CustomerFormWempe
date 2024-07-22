@@ -1,4 +1,4 @@
-fetch('https://ls-customerserver.onrender.com/latest')
+fetch('https://customerinfowempeserver.onrender.com/latest')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
@@ -70,7 +70,7 @@ fetch('https://ls-customerserver.onrender.com/latest')
     console.log('Updated response:', responseData);
     console.log('callbackURL:', callbackURL);
 
-    fetch('https://ls-customerserver.onrender.com/returning', {
+    fetch('https://customerinfowempeserver.onrender.com/returning', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -102,7 +102,7 @@ function validateEmail() {
 	}
 }
 
-fetch('https://ls-customerserver.onrender.com/swagger/Addresses ')
+fetch('https://customerinfowempeserver.onrender.com/swagger/Addresses ')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data)
@@ -417,7 +417,7 @@ function showBlankPopup() {
 
 
 function showEditablePopup(orderIndex) {
-	fetch('https://ls-customerserver.onrender.com/swagger/customerOrders')
+	fetch('https://customerinfowempeserver.onrender.com/swagger/customerOrders')
 		.then(response => response.json())
 		.then(data => {
 			const order = data[orderIndex];
@@ -538,7 +538,7 @@ function showEditablePopup(orderIndex) {
 }
 
 function showPopup(orderIndex, text) {
-	fetch('https://ls-customerserver.onrender.com/swagger/customerOrders')
+	fetch('https://customerinfowempeserver.onrender.com/swagger/customerOrders')
 		.then(response => response.json())
 		.then(data => {
 			const order = data[orderIndex];
@@ -787,7 +787,7 @@ function deleteOrder(orderIndex) {
 
 
 
-fetch('https://ls-customerserver.onrender.com/swagger/customerOrders')
+fetch('https://customerinfowempeserver.onrender.com/swagger/customerOrders')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
@@ -864,7 +864,7 @@ tbodyOrders.appendChild(newButton);
 	.catch(error => console.error('Error fetching data:', error));
 
     function showPopupReservation(orderIndex) {
-        fetch('https://ls-customerserver.onrender.com/swagger/customerReservations')
+        fetch('https://customerinfowempeserver.onrender.com/swagger/customerReservations')
             .then(response => response.json())
             .then(data => {
                 const order = data[orderIndex];
@@ -963,7 +963,7 @@ tbodyOrders.appendChild(newButton);
             .catch(error => console.error('Error fetching data:', error));
     }
 
-fetch('https://ls-customerserver.onrender.com/swagger/customerReservations')
+fetch('https://customerinfowempeserver.onrender.com/swagger/customerReservations')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
@@ -1022,7 +1022,7 @@ fetch('https://ls-customerserver.onrender.com/swagger/customerReservations')
 let responseData;
 let callbackURL;
 
-fetch('https://ls-customerserver.onrender.com/swagger/CustomerUserFields')
+fetch('https://customerinfowempeserver.onrender.com/swagger/CustomerUserFields')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
