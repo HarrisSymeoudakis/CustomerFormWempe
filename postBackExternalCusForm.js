@@ -6,7 +6,7 @@ document.getElementById('saveChangesBtn').addEventListener('click', function() {
 	const sessionId = url.searchParams.get('sessionId');
 
 	 // Define the endpoint for your Node.js server
-    const nodeJsEndpoint = 'https://ls-customerserver.onrender.com/api/PostBackExtForm';
+    const nodeJsEndpoint = 'https://customerinfowempeserver.onrender.com/api/PostBackExtForm';
 	
 	// Get customerID
 	const cusIdtextField = document.getElementById('customerId');
