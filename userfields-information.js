@@ -1,4 +1,4 @@
-fetch('https://ls-customerserver.onrender.com/swagger/CustomerUserFields')
+fetch('https://customerinfowempeserver.onrender.com/swagger/CustomerUserFields')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
