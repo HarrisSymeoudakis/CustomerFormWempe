@@ -94,7 +94,7 @@ function showBlankPopup() {
 
 
 function showEditablePopup(orderIndex) {
-	fetch('https://ls-customerserver.onrender.com/swagger/customerOrders')
+	fetch('https://customerinfowempeserver.onrender.com/swagger/customerOrders')
 		.then(response => response.json())
 		.then(data => {
 			const order = data[orderIndex];
