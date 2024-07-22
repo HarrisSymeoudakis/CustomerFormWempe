@@ -1,4 +1,4 @@
-fetch('https://ls-customerserver.onrender.com/latest')
+fetch('https://customerinfowempeserver.onrender.com/latest')
 	.then(response => response.json())
 	.then(data => {
 		console.log(data);
