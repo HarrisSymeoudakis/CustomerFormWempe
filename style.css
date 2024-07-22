@@ -32,36 +32,36 @@ body {
 .btn-primary-reversed {
 
     color: #fff !important;
-    background-color: #3c4395 !important;
-     border-color: #f3a32c !important;
+    background-color: #971b2f !important;
+     border-color: #971b2f !important;
 }
 
 .btn-primary-reversed:hover {
     color: #fff !important;
-    background-color: #f3a32c !important ;
-    border-color: #3c4395 !important;
+    background-color: #971b2f !important ;
+    border-color: #971b2f !important;
 
 }
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #f3a32c;
-    --bs-btn-border-color: #f3a32c;
+    --bs-btn-bg: #971b2f;
+    --bs-btn-border-color: #971b2f;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #3c4395;
-    --bs-btn-hover-border-color: #f3a32c;
+    --bs-btn-hover-bg: #971b2f;
+    --bs-btn-hover-border-color: #971b2f;
     --bs-btn-focus-shadow-rgb: 255, 208, 38;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #f3a32c;
+    --bs-btn-active-bg: #971b2f;
     --bs-btn-active-border-color: #971b2e;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #f3a32c;
-    --bs-btn-disabled-border-color: #f3a32c;
+    --bs-btn-disabled-bg: #971b2f;
+    --bs-btn-disabled-border-color: #971b2f;
 
     color: #fff;
-    background-color: #f3a32c;
-    border-color: #3c4395;
+    background-color: #971b2f;
+    border-color: #971b2f;
 }
 
 
@@ -89,14 +89,14 @@ body {
 }
 .text-primary {
     color: #fff !important;
-    background-color: #f3a32c !important;
+    background-color: #971b2f !important;
     
     text-decoration:none;
 }
 
 .text-primary:hover {
     color: #fff !important;
-    background-color: #3c4395 !important;
+    background-color: #971b2f !important;
     text-decoration:none;
 }
 
@@ -119,12 +119,12 @@ body {
 
 .list-group-item.active {
     z-index: 3;
-    background-color: #f3a32c ;
-    border-color: #f3a32c ;
+    background-color: #971b2f ;
+    border-color: #971b2f ;
 }
 
 .form-control:focus {
-        border-color: #f3a32c;
+        border-color: #971b2f;
         box-shadow: 0 0 0 0.2rem rgba(243, 163, 44, 0.5);
     } 
 
@@ -159,11 +159,11 @@ width:auto;
 }
 
 label{
-    color: #3c4395;
+    color: #971b2f;
 }
 
 .mb-1{
-    color: #3c4395;
+    color: #971b2f;
 }
     
 .user-list tbody td .user-subhead {
@@ -187,17 +187,17 @@ a {
     margin-right: 15px;
 }
 .modal-title{
-    color: #3c4395;
+    color: #971b2f;
 }
 
 .table thead tr th {
     white-space: nowrap;
     text-transform: none;
     font-size: 0.875em;
-    color: #3c4395;
+    color: #971b2f;
 }
 .border-primary {
-    border-color: #f3a32c !important;
+    border-color: #971b2f !important;
 }
 
 /* .table thead tr th {
