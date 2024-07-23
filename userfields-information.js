@@ -4,8 +4,8 @@ fetch('https://customerinfowempeserver.onrender.com/swagger/CustomerUserFields')
 		console.log(data);
 		responseData = data;
 		const usrFields = data.userFields
-		document.getElementById('usrfield1').checked  = usrFields[0].value.boolean;
-		document.getElementById('usrfield2').checked  = usrFields[1].value.boolean;
+		// document.getElementById('usrfield1').checked  = usrFields[0].value.boolean;
+		// document.getElementById('usrfield2').checked  = usrFields[1].value.boolean;
 
 		document.getElementById('usrfield3').value = usrFields[2].value.number.toString() || "";
 		document.getElementById('usrfield4').value = usrFields[3].value.number.toString() || "";
