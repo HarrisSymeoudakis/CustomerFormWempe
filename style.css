@@ -6,6 +6,11 @@ body {
   background-size: cover; 
     margin-top: 20px;
 }
+primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #3333;
+    border-color: #3333;
+}
 
 .fa-search-plus{
     background:#971b2f   
