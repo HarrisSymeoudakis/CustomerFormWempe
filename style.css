@@ -12,6 +12,13 @@ body {
     border-color: #3333;
 }
 
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #3333;
+    border-color: #3333;
+    
+}
+
 .fa-search-plus{
     background:#971b2f   
 }
