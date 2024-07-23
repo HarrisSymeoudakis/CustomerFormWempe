@@ -7,6 +7,18 @@ body {
     margin-top: 20px;
 }
 
+.fa-search-plus{
+    background:#971b2f   
+}
+
+.fa-pencil{
+    background:grey   
+}
+
+.fa-trash-o{
+    background:black   
+}
+
 .top-right-image {
   position: relative;
  margin-top:10px;
