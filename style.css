@@ -6,7 +6,7 @@ body {
   background-size: cover; 
     margin-top: 20px;
 }
-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #3333;
     border-color: #3333;
