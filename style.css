@@ -11695,8 +11695,9 @@ background:#3333
 
 .list-group-item.active {
     z-index: 3;
-    background-color: #971b2f ;
-    border-color: #971b2f ;
+    background-color: #971b2f !important;
+    border-color: #971b2f  !important;
+ 
 }
 
 .form-control:focus {
