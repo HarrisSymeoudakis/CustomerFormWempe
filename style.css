@@ -11632,8 +11632,8 @@ background:#3333
 }
 
 .btn-primary-reversed:hover {
-    color: #fff !important;
-    background-color: #971b2f !important ;
+    color: #971b2f !important;
+    background-color: #3333 !important ;
     border-color: #971b2f !important;
 
 }
