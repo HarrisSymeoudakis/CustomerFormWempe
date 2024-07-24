@@ -109,9 +109,7 @@ background:#3333
 }
 
 
-.btn:hover,
-.btn:focus,
-.btn-primary:focus,
+
 .btn:active,
 .btn-primary:active {
     color: var(--bs-btn-hover-color);
